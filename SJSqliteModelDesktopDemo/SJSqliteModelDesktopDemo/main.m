@@ -11,9 +11,12 @@
 #import "TestModel.h"
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        [[SJSqliteModel shareInstance] creatDataBase];
+//        [[SJSqliteModel shareInstance] creatDataBase];
         NSArray *array = [TestModel findAll];
         NSLog(@"array = %@",array);
+        for (TestModel *model in array) {
+//            NSLog(@"name111 = %@",model.name);
+        }
     }
     return 0;
 }
