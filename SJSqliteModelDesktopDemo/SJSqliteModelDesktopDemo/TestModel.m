@@ -7,7 +7,9 @@
 //
 
 #import "TestModel.h"
+@interface TestModel()
 
+@end
 @implementation TestModel
 
 @end
