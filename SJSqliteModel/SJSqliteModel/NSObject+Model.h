@@ -10,4 +10,7 @@
 
 @interface NSObject (Model)
 +(NSArray *)findAll;
+//+(void)find
+//-(void)
+//-(void)insertWithPath:(naa)
 @end
